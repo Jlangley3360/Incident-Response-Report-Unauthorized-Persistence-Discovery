@@ -17,7 +17,7 @@ An unauthorized entry was identified in the root crontab, configured to execute 
 
 The screenshot below shows the discovery of the malicious cron job via the `cat` command:
 
-> *(Insert screenshot here: cron job discovery output)*
+> ![Terminal Analysis](terminal1.png)
 
 ---
 
