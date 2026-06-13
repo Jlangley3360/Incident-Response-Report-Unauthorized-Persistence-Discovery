@@ -35,4 +35,14 @@ The screenshot below shows the discovery of the malicious cron job via the `cat`
 
 The system was confirmed to be compromised with a persistent backdoor.
 
-The malicious script located at:
+The malicious script located at: /tmp/.hidden_malware/malware.sh
+
+was scheduled to execute every five minutes via a root-level cron job, confirming unauthorized persistence and full system compromise.
+
+---
+
+## Indicators of Compromise (IOCs)
+
+- Malicious script: `/tmp/.hidden_malware/malware.sh`
+- Persistence mechanism: root cron job (`/var/spool/cron/crontabs/root`)
+- Execution interval: every 5 minutes
